@@ -1,0 +1,12 @@
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\bin\Debug\DemoEntityFrameworkApp.Models.dll.config
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\bin\Debug\DemoEntityFrameworkApp.Models.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\bin\Debug\DemoEntityFrameworkApp.Models.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\bin\Debug\EntityFramework.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\bin\Debug\EntityFramework.xml
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\obj\Debug\DemoEntityFrameworkApp.Models.csprojResolveAssemblyReference.cache
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\obj\Debug\DemoEntityFrameworkApp.Models.csproj.CoreCompileInputs.cache
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\obj\Debug\DemoEntityFrameworkApp.Models.csproj.CopyComplete
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\obj\Debug\DemoEntityFrameworkApp.Models.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Models\obj\Debug\DemoEntityFrameworkApp.Models.pdb

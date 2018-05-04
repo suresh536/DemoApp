@@ -1,0 +1,14 @@
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\DemoEntityFrameworkApp.Common.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\DemoEntityFrameworkApp.Common.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\DemoEntityFrameworkApp.Models.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\log4net.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\EntityFramework.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\DemoEntityFrameworkApp.Models.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\DemoEntityFrameworkApp.Models.dll.config
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\log4net.xml
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\EntityFramework.xml
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\obj\Debug\DemoEntityFrameworkApp.Common.csprojResolveAssemblyReference.cache
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\obj\Debug\DemoEntityFrameworkApp.Common.csproj.CoreCompileInputs.cache
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\obj\Debug\DemoEntityFrameworkApp.Common.csproj.CopyComplete
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\obj\Debug\DemoEntityFrameworkApp.Common.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\obj\Debug\DemoEntityFrameworkApp.Common.pdb

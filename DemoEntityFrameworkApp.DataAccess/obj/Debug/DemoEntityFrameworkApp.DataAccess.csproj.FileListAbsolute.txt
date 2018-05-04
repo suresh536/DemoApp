@@ -1,0 +1,15 @@
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\DemoEntityFrameworkApp.DataAccess.dll.config
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\DemoEntityFrameworkApp.DataAccess.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\DemoEntityFrameworkApp.DataAccess.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\DemoEntityFrameworkApp.Models.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\EntityFramework.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\DemoEntityFrameworkApp.Models.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\DemoEntityFrameworkApp.Models.dll.config
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\EntityFramework.xml
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\obj\Debug\DemoEntityFrameworkApp.DataAccess.csprojResolveAssemblyReference.cache
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\obj\Debug\DemoEntityFrameworkApp.DataAccess.csproj.CoreCompileInputs.cache
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\obj\Debug\DemoEntityFrameworkApp.DataAccess.csproj.CopyComplete
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\obj\Debug\DemoEntityFrameworkApp.DataAccess.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\obj\Debug\DemoEntityFrameworkApp.DataAccess.pdb

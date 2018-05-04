@@ -1,0 +1,15 @@
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\bin\Debug\DemoEntityFrameworkApp.Services.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\bin\Debug\DemoEntityFrameworkApp.Services.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\bin\Debug\DemoEntityFrameworkApp.DataAccess.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\bin\Debug\DemoEntityFrameworkApp.Models.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\bin\Debug\EntityFramework.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\bin\Debug\DemoEntityFrameworkApp.DataAccess.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\bin\Debug\DemoEntityFrameworkApp.DataAccess.dll.config
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\bin\Debug\DemoEntityFrameworkApp.Models.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\bin\Debug\DemoEntityFrameworkApp.Models.dll.config
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\bin\Debug\EntityFramework.xml
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\obj\Debug\DemoEntityFrameworkApp.Services.csprojResolveAssemblyReference.cache
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\obj\Debug\DemoEntityFrameworkApp.Services.csproj.CoreCompileInputs.cache
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\obj\Debug\DemoEntityFrameworkApp.Services.csproj.CopyComplete
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\obj\Debug\DemoEntityFrameworkApp.Services.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Services\obj\Debug\DemoEntityFrameworkApp.Services.pdb
