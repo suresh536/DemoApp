@@ -1,0 +1,100 @@
+
+/****** Object:  StoredProcedure [dbo].[USP_GET_ALL_PERSONS]    Script Date: 5/5/2018 10:12:47 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:    	<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[USP_GET_ALL_PERSONS] (
+/*Searching*/
+@Search varchar(100) = NULL,
+--/*-Pagination parameters*/
+@pageNo int = 0,
+@pagesize int = 10,
+--/*- sorting parameters*/
+@SortColumn nvarchar(50) = NULL,
+@SortOrder nvarchar(4) = NULL)
+AS
+BEGIN
+  DECLARE @IpageNbr int,
+          @IpageSize int,
+          @ISortCol nvarchar(50),
+          @IFirstRec int,
+          @ILastRec int,
+          @ITotalRows int;
+
+  SET @IpageNbr = @pageNo
+  SET @IpageSize = @pagesize
+  SET @ISortCol = LTRIM(RTRIM(@SortColumn))
+  SET @IFirstRec = @IPageNbr;
+  SET @ILastRec = (@IFirstRec - @IpageSize) - 1;
+  SET @ITotalRows = @IFirstRec - @ILastRec + 1;
+
+  ;
+  WITH Person_Data
+  AS (SELECT DISTINCT
+    ROW_NUMBER() OVER (ORDER BY
+    CASE
+      WHEN (@ISortCol = 'LastName' AND
+        @SortOrder = 'ASC') THEN LastName
+    END ASC,
+    CASE
+      WHEN (@ISortCol = 'LastName' AND
+        @SortOrder = 'DESC') THEN LastName
+    END DESC,
+    CASE
+      WHEN (@ISortCol = 'FirstName' AND
+        @SortOrder = 'ASC') THEN FirstName
+    END ASC,
+    CASE
+      WHEN (@ISortCol = 'FirstName' AND
+        @SortOrder = 'DESC') THEN FirstName
+    END DESC,
+    CASE
+      WHEN (@ISortCol = 'HireDate' AND
+        @SortOrder = 'ASC') THEN HireDate
+    END ASC,
+    CASE
+      WHEN (@ISortCol = 'HireDate' AND
+        @SortOrder = 'DESC') THEN HireDate
+    END DESC,
+    CASE
+      WHEN (@ISortCol = 'EnrollmentDate' AND
+        @SortOrder = 'ASC') THEN EnrollmentDate
+    END ASC,
+    CASE
+      WHEN (@ISortCol = 'EnrollmentDate' AND
+        @SortOrder = 'DESC') THEN EnrollmentDate
+    END DESC
+    ) AS ROW_NO,
+    COUNT(*) OVER () AS totalcount,
+    LastName,
+    FirstName,
+    HireDate,
+    EnrollmentDate
+  FROM Person
+  WHERE (@Search IS NULL
+  OR LastName LIKE '%' + @Search + '%')
+  OR (@Search IS NULL
+  OR FirstName LIKE '%' + @Search + '%')
+  OR (@Search IS NULL
+  OR HireDate LIKE '%' + @Search + '%')
+  OR (@Search IS NULL
+  OR EnrollmentDate LIKE '%' + @Search + '%'))
+
+  SELECT
+    totalcount,
+    LastName,
+    FirstName,
+    HireDate,
+    EnrollmentDate
+  FROM Person_Data
+  WHERE ROW_NO > @IFirstRec
+  AND row_no < @ILastRec
+  ORDER BY FirstName
+
+END
