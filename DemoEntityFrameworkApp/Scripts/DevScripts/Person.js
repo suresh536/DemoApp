@@ -14,30 +14,44 @@ function bindPersons() {
         "aaSorting": [
             [1, 'desc']
         ],
-       
+
         "bFilter": true,
         "autoWidth": false,
         "processing": true, // for show progress bar
-        "serverside": true, // for processor server side
+        "serverSide": true, // for processor server side
         "filter": true, // this is for disable filter (search box)
         "orderMulti": false, // for disable multiple column at once
         "ajax": {
-            "url":'GetAllPersons/Person',
+            "url": urlindex,
             "data": {
                 //'blkval': blokval,
             },
-            "type": "post",
+            "type": "POST",
             "datatype": "json"
         },
-        "initcomplete":function (settings,Json){
-    },
-        "columns" : [
+        "initComplete": function (settings, Json) {
+        },
+        "columns": [
             {
-                "data": "request-no",
-                "name": "request-no",
-                "title": "request no",
+                "data": "LastName",
+                "name": "LastName",
                 "width": '12%'
             },
-           
-         ]
+            {
+                "data": "FirstName",
+                "name": "FirstName",
+                "width": '12%'
+            },
+            {
+                "data": "HireDate",
+                "name": "HireDate",
+                "dateFormat":"MM/dd/yyyy"
+            },
+            {
+                "data": "EnrollmentDate",
+                "name": "EnrollmentDate"
+            }
+
+        ]
+    });
 }

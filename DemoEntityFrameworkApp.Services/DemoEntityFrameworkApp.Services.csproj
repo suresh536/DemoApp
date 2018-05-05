@@ -43,6 +43,8 @@
     <Compile Include="IpersonService.cs" />
     <Compile Include="personService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IUSP_GET_ALL_PERSONSservice.cs" />
+    <Compile Include="USP_GET_ALL_PERSONSservice.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DemoEntityFrameworkApp.DataAccess\DemoEntityFrameworkApp.DataAccess.csproj">

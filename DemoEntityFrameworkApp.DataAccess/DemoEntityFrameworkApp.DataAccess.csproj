@@ -50,6 +50,7 @@
     <Compile Include="GenericRepository.cs" />
     <Compile Include="Interfaces\IGenericRepository.cs" />
     <Compile Include="Interfaces\IPersonRepo.cs" />
+    <Compile Include="Interfaces\IUSP_GET_ALL_PERSONS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

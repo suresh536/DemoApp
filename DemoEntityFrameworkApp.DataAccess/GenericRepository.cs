@@ -80,7 +80,7 @@ namespace DemoEntityFrameworkApp.DataAccess
         public List<T> Get_StoredProc_Name(T entity, Dictionary<object, object> parms)
         {
             Type typeParameterType = typeof(T);
-            var spname = typeParameterType.Name + "";
+            var spname = typeParameterType.Name + " ";
             var objParams = new SqlParameter[0];
             try
             {

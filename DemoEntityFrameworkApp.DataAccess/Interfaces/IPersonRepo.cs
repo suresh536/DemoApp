@@ -20,4 +20,6 @@ namespace DemoEntityFrameworkApp.DataAccess.Interfaces
             return query;
         }
     }
+
+   
 }

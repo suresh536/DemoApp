@@ -6,59 +6,65 @@
 }
 
 <h2>Index</h2>
-
+<script>
+   var urlindex='@Url.Action("GetAllPersonsWithPaging", "Person")'
+</script>
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table" id="tabPerson">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.OfficeAssignment.Location)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.LastName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.FirstName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.HireDate)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.EnrollmentDate)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Discriminator)
-        </th>
-        <th></th>
-    </tr>
+    <thead>
+        <tr>
+         
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HireDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EnrollmentDate)
+            </th>
+          
+        </tr>
+    </thead>
 
-@*@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.OfficeAssignment.Location)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.LastName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.FirstName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.HireDate)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.EnrollmentDate)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Discriminator)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.PersonID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.PersonID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.PersonID })
-        </td>
-    </tr>
-}*@
+    @*@foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OfficeAssignment.Location)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HireDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EnrollmentDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Discriminator)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.PersonID }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.PersonID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.PersonID })
+                </td>
+            </tr>
+        }*@
 
 </table>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+
+<script src="~/Scripts/DevScripts/Person.js"></script>

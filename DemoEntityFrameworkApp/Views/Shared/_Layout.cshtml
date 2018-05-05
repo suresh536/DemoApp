@@ -173,7 +173,7 @@
                                 <li class="col-sm-3">
                                     <ul>
                                         <li class="dropdown-header">Forms Elements</li>
-                                        <li><a href="form-basic.html">Basic Forms</a></li>
+                                        <li><a href='@Url.Action("Index","Person")'>Basic Forms</a></li>@* form-basic.html" *@
                                         <li><a href="form-layout.html">Form Layout</a></li>
                                         <li><a href="form-advanced.html">Form Addons</a></li>
                                         <li><a href="form-material-elements.html">Form Material</a></li>
@@ -403,7 +403,7 @@
                         <li>
                             <a href="forms.html" class="waves-effect"><i class="mdi mdi-clipboard-text fa-fw"></i> <span class="hide-menu">Forms<span class="fa arrow"></span></span></a>
                             <ul class="nav nav-second-level">
-                                <li><a href="form-basic.html"><i class="fa-fw">B</i><span class="hide-menu">Basic Forms</span></a></li>
+                                <li><a href='@Url.Action("Index","Person")'><i class="fa-fw">B</i><span class="hide-menu">Basic Forms</span></a></li>
                                 <li><a href="form-layout.html"><i class="fa-fw">L</i><span class="hide-menu">Form Layout</span></a></li>
                                 <li><a href="form-advanced.html"><i class="fa-fw">A</i><span class="hide-menu">Form Addons</span></a></li>
                                 <li><a href="form-material-elements.html"><i class="fa-fw">M</i><span class="hide-menu">Form Material</span></a></li>
@@ -1849,55 +1849,57 @@
         <!-- All Jquery -->
         <!-- ============================================================== -->
 
-        <script src="~/Scripts/jquery.js"></script>
-        <!-- Bootstrap Core JavaScript -->
-        <script src="~/Scripts/bootstrap.min.js"></script>
-        <!-- Menu Plugin JavaScript -->
-        <script src="~/Scripts/sidebar-nav.min.js"></script>
-        <!--slimscroll JavaScript -->
-        <script src="~/Scripts/jquery.slimscroll.js"></script>
-        <!--Wave Effects -->
-        <script src="~/Scripts/waves.js"></script>
-        <!--Counter js -->
-        <script src="~/Scripts/jquery.waypoints.js"></script>
-        <script src="~/Scripts/jquery.counterup.min.js"></script>
-        <!--Morris JavaScript -->
-        <script src="~/Scripts/raphael-min.js"></script>
-        <script src="~/Scripts/morris.js"></script>
-        <!-- chartist chart -->
-        <script src="~/Scripts/chartist.min.js"></script>
-        <script src="~/Scripts/chartist-plugin-tooltip.min.js"></script>
-        <!-- Calendar JavaScript -->
-        <script src="~/Scripts/moment.js"></script>
-        <script src='~/Scripts/fullcalendar.min.js'></script>
-        <script src="~/Scripts/cal-init.js"></script>
-        <!-- Custom Theme JavaScript -->
-        <script src="~/Scripts/custom.min.js"></script>
-        <script src="~/Scripts/dashboard1.js"></script>
-        <!-- Custom tab JavaScript -->
-        <script src="~/Scripts/cbpFWTabs.js"></script>
-        <script type="text/javascript">
-            (function () {
-                [].slice.call(document.querySelectorAll('.sttabs')).forEach(function (el) {
-                    new CBPFWTabs(el);
-                });
-            })();
-        </script>
-        <script src="~/Scripts/jquery.toast.js"></script>
-        <!--Style Switcher -->
-        <script src="~/Scripts/jQuery.style.switcher.js"></script>
+        
 
 
 
 
 
-<div class="container body-content">
-    @RenderBody()
-    <hr />
-    <footer>
-        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-    </footer>
-</div>
+        <div class="container body-content">
+            <script src="~/Scripts/jquery.js"></script>
+            <!-- Bootstrap Core JavaScript -->
+            <script src="~/Scripts/bootstrap.min.js"></script>
+            <script src="~/Scripts/DataTables/jquery.dataTables.js"></script>
+            <!-- Menu Plugin JavaScript -->
+            <script src="~/Scripts/sidebar-nav.min.js"></script>
+            <!--slimscroll JavaScript -->
+            <script src="~/Scripts/jquery.slimscroll.js"></script>
+            <!--Wave Effects -->
+            <script src="~/Scripts/waves.js"></script>
+            <!--Counter js -->
+            <script src="~/Scripts/jquery.waypoints.js"></script>
+            <script src="~/Scripts/jquery.counterup.min.js"></script>
+            <!--Morris JavaScript -->
+            <script src="~/Scripts/raphael-min.js"></script>
+            <script src="~/Scripts/morris.js"></script>
+            <!-- chartist chart -->
+            <script src="~/Scripts/chartist.min.js"></script>
+            <script src="~/Scripts/chartist-plugin-tooltip.min.js"></script>
+            <!-- Calendar JavaScript -->
+            <script src="~/Scripts/moment.js"></script>
+            <script src='~/Scripts/fullcalendar.min.js'></script>
+            <script src="~/Scripts/cal-init.js"></script>
+            <!-- Custom Theme JavaScript -->
+            <script src="~/Scripts/custom.min.js"></script>
+            <script src="~/Scripts/dashboard1.js"></script>
+            <!-- Custom tab JavaScript -->
+            <script src="~/Scripts/cbpFWTabs.js"></script>
+            <script type="text/javascript">
+                (function () {
+                    [].slice.call(document.querySelectorAll('.sttabs')).forEach(function (el) {
+                        new CBPFWTabs(el);
+                    });
+                })();
+            </script>
+            <script src="~/Scripts/jquery.toast.js"></script>
+            <!--Style Switcher -->
+            <script src="~/Scripts/jQuery.style.switcher.js"></script>
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
 
 @*@Scripts.Render("~/bundles/jquery")
 @Scripts.Render("~/bundles/bootstrap")*@
