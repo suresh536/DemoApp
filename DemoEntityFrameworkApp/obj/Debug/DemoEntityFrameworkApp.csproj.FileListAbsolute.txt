@@ -120,3 +120,5 @@ D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp\obj\Debug\DemoE
 D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp\obj\Debug\DemoEntityFrameworkApp.csproj.CopyComplete
 D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp\obj\Debug\DemoEntityFrameworkApp.dll
 D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp\obj\Debug\DemoEntityFrameworkApp.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp\bin\softlabs.bo.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp\bin\softlabs.DataAccess.dll

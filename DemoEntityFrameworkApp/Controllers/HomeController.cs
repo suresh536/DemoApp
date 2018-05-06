@@ -29,7 +29,32 @@ namespace DemoEntityFrameworkApp.Controllers
 
             return View();
         }
-
+        public static string ConvertToDate(string strToDate)
+        {
+            string a = strToDate;
+            String[] str = new String[3];
+            str = a.Split('/');
+            String dutydate = String.Empty;
+            dutydate = str[0];
+            str[0] = str[1];
+            str[1] = dutydate;
+            // dutydate = str[0] + "/" + str[1] + "/" + str[2];
+            dutydate = str[0] + "/" + str[1] + "/" + str[2];
+            return dutydate;
+        }
+        public static string ConvertFromDate(string strFromDate)
+        {
+            string a = strFromDate;
+            String[] str = new String[3];
+            str = a.Split('/');
+            String dutydate = String.Empty;
+            dutydate = str[0];
+            str[0] = str[1];
+            str[1] = dutydate;
+            // dutydate = str[0] + "/" + str[1] + "/" + str[2];
+            dutydate = str[0] + "/" + str[1] + "/" + str[2];
+            return dutydate;
+        }
         public DataTable Readexcel(string Fname)
         {
             String excelcolumns = string.Empty;

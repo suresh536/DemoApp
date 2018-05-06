@@ -92,7 +92,7 @@ namespace DemoEntityFrameworkApp.DataAccess
                     {
                         SqlParameter param = new SqlParameter(item.Key.ToString(), item.Value);
                         objParams[i] = param;
-                        if(i==0)
+                        if (i == 0)
                         {
                             spname += item.Key.ToString();
                         }

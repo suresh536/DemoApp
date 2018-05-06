@@ -33,7 +33,17 @@
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="softlabs.bo">
+      <HintPath>..\DemoEntityFrameworkApp.DataAccess\resource\softlabs.bo.dll</HintPath>
+    </Reference>
+    <Reference Include="softlabs.DataAccess">
+      <HintPath>..\DemoEntityFrameworkApp.DataAccess\resource\softlabs.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Softlabs.DBManager">
+      <HintPath>..\DemoEntityFrameworkApp.DataAccess\resource\Softlabs.DBManager.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
@@ -44,9 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common.cs" />
     <Compile Include="Conversion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionManager.cs" />
+    <Compile Include="SqlHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DemoEntityFrameworkApp.Models\DemoEntityFrameworkApp.Models.csproj">

@@ -10,6 +10,7 @@ namespace DemoEntityFrameworkApp.Models
         public SchoolDB()
             : base("name=SchoolDB")
         {
+            Configuration.ProxyCreationEnabled = false;
         }
 
         public virtual DbSet<Course> Courses { get; set; }

@@ -11,15 +11,12 @@ function bindPersons() {
     $('#tabPerson').DataTable({
         destory: true,
         cache: false,
-        "aaSorting": [
-            [1, 'desc']
-        ],
-
-        "bFilter": true,
+       
+        "order": [[0, "asc"]],
+        "info": true,
         "autoWidth": false,
         "processing": true, // for show progress bar
         "serverSide": true, // for processor server side
-        "filter": true, // this is for disable filter (search box)
         "orderMulti": false, // for disable multiple column at once
         "ajax": {
             "url": urlindex,

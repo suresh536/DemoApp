@@ -13,3 +13,6 @@ D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\obj\
 D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\obj\Debug\DemoEntityFrameworkApp.DataAccess.csproj.CopyComplete
 D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\obj\Debug\DemoEntityFrameworkApp.DataAccess.dll
 D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\obj\Debug\DemoEntityFrameworkApp.DataAccess.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\softlabs.bo.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\softlabs.DataAccess.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.DataAccess\bin\Debug\Softlabs.DBManager.dll

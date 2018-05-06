@@ -10,7 +10,8 @@ namespace DemoEntityFrameworkApp.Models
     {
         public string LastName { get; set; }
         public string FirstName { get; set; }
-        public DateTime HireDate { get; set; }
-        public DateTime EnrollmentDate { get; set; }
+        public string HireDate { get; set; }
+        public string EnrollmentDate { get; set; }
+        public int totalcount { get; set; }
     }
 }

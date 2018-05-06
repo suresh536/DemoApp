@@ -12,3 +12,6 @@ D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\obj\Debu
 D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\obj\Debug\DemoEntityFrameworkApp.Common.csproj.CopyComplete
 D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\obj\Debug\DemoEntityFrameworkApp.Common.dll
 D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\obj\Debug\DemoEntityFrameworkApp.Common.pdb
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\softlabs.bo.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\softlabs.DataAccess.dll
+D:\Suresh Projects\DemoEntityFrameworkApp\DemoEntityFrameworkApp.Common\bin\Debug\Softlabs.DBManager.dll
