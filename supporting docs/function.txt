@@ -1,3 +1,7 @@
+Calling this function
+--select Salary,CAST([dbo].[udf_NumberToCurrency](Salary,'IND') AS VARCHAR) Salary,* from Person
+--select Salary,CAST([dbo].[udf_NumberToCurrency](Salary,'IND')AS VARCHAR) ,CAST([dbo].[udf_NumberToCurrency](Salary,'US') AS VARCHAR) Salary,* from Person
+
 CREATE FUNCTION [dbo].[udf_NumberToCurrency]
 (    
   @InNumericValue NUMERIC(38,2)
