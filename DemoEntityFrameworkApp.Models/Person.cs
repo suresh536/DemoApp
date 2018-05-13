@@ -31,6 +31,10 @@ namespace DemoEntityFrameworkApp.Models
         public DateTime? EnrollmentDate { get; set; }
 
 
+        public decimal? Salary { get; set; }
+
+
+
         [Required]
         [StringLength(50)]
         public string Discriminator { get; set; }

@@ -12,12 +12,10 @@ function bindPersons() {
         destory: true,
         cache: false,
        
-        "order": [[0, "asc"]],
-        "info": true,
-        "autoWidth": false,
+       
         "processing": true, // for show progress bar
         "serverSide": true, // for processor server side
-        "orderMulti": false, // for disable multiple column at once
+        "orderMulti": true, // for disable multiple column at once
         "ajax": {
             "url": urlindex,
             "data": {
@@ -29,6 +27,7 @@ function bindPersons() {
         "initComplete": function (settings, Json) {
         },
         "columns": [
+            { "data": "PersonID", "name":"PersonID"},
             {
                 "data": "LastName",
                 "name": "LastName",
@@ -41,13 +40,17 @@ function bindPersons() {
             },
             {
                 "data": "HireDate",
-                "name": "HireDate",
-                "dateFormat":"MM/dd/yyyy"
+                "name": "HireDate"
             },
             {
                 "data": "EnrollmentDate",
                 "name": "EnrollmentDate"
+            },
+            {
+                "data": "Salary",
+                "name": "Salary"
             }
+           
 
         ]
     });

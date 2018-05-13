@@ -1,5 +1,4 @@
-﻿@model IEnumerable<DemoEntityFrameworkApp.Models.Person>
-
+﻿
 @{
     ViewBag.Title = "Index";
     Layout = null;
@@ -12,22 +11,29 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table" id="tabPerson">
+<button class="btn btn-md btn-info" id="btnPdf"><i class="glyphicon glyphicon-print"></i></button>
+<button class="btn btn-md btn-warning" id="btnExcel"><i class="glyphicon glyphicon-floppy-save"></i></button>
+<table class="" id="tabPerson">
     <thead>
         <tr>
+            <td>PersonID</td>
+            <td>
+                LastName
+            </td>
+            <td>
+                FirstName
+            </td>
+            <th>
+                HireDate
 
-            <th>
-                @Html.DisplayNameFor(model => model.LastName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FirstName)
+                EnrollmentDate
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.HireDate)
+                Salary
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EnrollmentDate)
-            </th>
+
 
         </tr>
     </thead>
@@ -70,3 +76,16 @@
 
 <link href="~/Content/DataTables/css/dataTables.bootstrap.css" rel="stylesheet" />
 <script src="~/Scripts/DevScripts/Person.js"></script>
+<script type="text/javascript">
+    $('#btnPdf').click(function () {
+
+        var url = '@Url.Action("RdLcExportExcel", "Person")?type=Pdf';
+        window.location.href = url;
+    });
+
+    $('#btnExcel').click(function () {
+
+        var url = '@Url.Action("RdLcExportExcel", "Person")?type=Excel';
+        window.location.href = url;
+    });
+</script>

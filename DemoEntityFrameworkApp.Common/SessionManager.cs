@@ -34,7 +34,7 @@ namespace DemoEntityFrameworkApp.Common
                 if (HttpContext.Current.Session["Department"] != null)
                     return HttpContext.Current.Session["Department"] as List<Department>;
                 else
-                    return null;
+                    return new List<Department>();
 
             }
             set
