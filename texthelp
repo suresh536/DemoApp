@@ -1,0 +1,7 @@
+https://stackoverflow.com/questions/33628366/datatable-responsive-show-and-hide-column/33630891
+$(table.column(ID).header()).addClass( 'never' );
+// OR
+$(table.column(ID).header()).removeClass( 'never' );
+
+table.responsive.rebuild();
+table.responsive.recalc();
